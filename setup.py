@@ -9,7 +9,7 @@ if __name__ == '__main__':
             open('requirements.in') as requirements, \
             open('README.md') as readme:
         setup(
-            use_scm_version=True,
+            use_scm_version=False,
             setup_requires=['setuptools_scm'],
             name='django-postgres-composite-types',
             description='Postgres composite types support for Django',
